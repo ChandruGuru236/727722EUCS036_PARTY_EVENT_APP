@@ -1,0 +1,55 @@
+.event-enquiry {
+    margin-top: 20px;
+    max-height: 600px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .bookbutton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e97d11;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+ .bookbutton:hover {
+    background-color: #d16b0c;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  

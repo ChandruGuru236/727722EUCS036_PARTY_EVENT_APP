@@ -1,0 +1,75 @@
+.vfpage-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .vfsidebar {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .vfsearch-box {
+    margin-bottom: 20px;
+  }
+  
+  .vfsearch-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .vffilter-section {
+    margin-bottom: 20px;
+  }
+  
+  .vffilter-title {
+    font-weight: bold;
+  }
+  
+  .vffilter-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vffilter-item {
+    margin-bottom: 10px;
+  }
+  
+  .vfvenues-container {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .vftitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .vfvenues-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .vfvenue-card {
+    position: relative;
+    background-color: black;
+  }
+  
+  .vfvenue-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+  }
+  
+  .vfvenue-name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

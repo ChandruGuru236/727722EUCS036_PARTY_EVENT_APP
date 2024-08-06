@@ -1,0 +1,66 @@
+.top-section {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+    background-image: url("https://static.giggster.com/media/activities/party/uploads/1708001685/1080.jpg");
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content_service {
+    z-index: 1;
+    
+  }
+  
+  .hero-content_service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .hero-content_service h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .divider_service{
+    width: 400px;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
+  }
+  
+  .hero-content_service p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .scroll-icon {
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .scroll-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  

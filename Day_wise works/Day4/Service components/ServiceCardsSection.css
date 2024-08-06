@@ -1,0 +1,61 @@
+.service-cards-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .service-cards-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .divider1 {
+    width: 600px;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+  }
+  
+  .service-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .service-card {
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    width: 290px;
+    height:250px ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .service-card h2 {
+    color:#d7d7e2;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 89px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card .hover{
+    color: black;
+  }
+  .learn-more-button {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #3a006e;
+  }
+  

@@ -1,0 +1,98 @@
+/* Theme.css */
+
+.header {
+    background-color: #282c34;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 174px;
+    background-image: url("https://www.dine.co.uk/wp-content/uploads/2019/05/img0539Low_Res.jpg");
+  }
+  .header p{
+    margin-bottom: 130px;
+    font-size: 70px;
+    
+  }
+  .theme-list {
+    width: 20%;
+    float: left;
+    padding: 20px;
+  }
+  .theme-list{
+    text-align: center;
+  }
+  .theme-list h{
+    background-color: #212931;
+  }
+  .theme-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .theme-list li {
+    background-color: #212931;
+    color: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .theme-list li:hover {
+    background-color: #4d4a4a;
+  }
+  
+  .theme-detail {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  .theme-detail .main-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .theme-detail .main-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .theme-description {
+    margin-bottom: 20px;
+  }
+  
+  .theme-description h2 {
+    margin-bottom: 20px;
+  }
+  .theme-description p {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .additional-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .additional-images img {
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .theme-list, .theme-detail {
+      width: 100%;
+      float: none;
+    }
+  
+    .additional-images img {
+      max-width: 100%;
+    }
+  }
+  

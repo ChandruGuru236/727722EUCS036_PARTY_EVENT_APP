@@ -1,0 +1,87 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: right;
+  z-index: 1000;
+}
+
+.websitename {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 8px;
+  padding: 0;
+  margin-right: 750px;
+  display: flex-start;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 8px;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  position: relative;
+  color: #f0f0f0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+  padding: 0.5rem 0; /* Adds padding for better hover effect */
+}
+
+.nav-links a:hover {
+  color: #ccc;
+}
+
+/* Hover line effect */
+.nav-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ccc;
+  transition: width 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left:0;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: -100px;
+}
+
+.dropdown-menu div {
+  cursor: pointer;
+  color: rgb(227, 223, 223);
+  padding: 0.5rem 1.3rem;
+}
+
+.dropdown-menu div:hover {
+  background-color: #5b555584;
+}

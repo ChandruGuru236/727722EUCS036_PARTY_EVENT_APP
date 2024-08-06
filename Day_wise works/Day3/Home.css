@@ -1,0 +1,140 @@
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+  }
+  
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+  
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+  
+.heading {
+    font-size: 3rem;
+   
+}
+  
+.recent-projects-section {
+  padding: 1rem 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.recent-projects-section  h2{
+  margin-left: 600px;
+  font-size:3rem;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.project-card h3{
+  margin-left: 10rem;
+}
+
+.project-card {
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.project-card {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@media (max-width: 1000px) {
+  .projects-grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+.venue-finder-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.venue-finder-background {
+  background-image: url('/src/assests/Venue.png'); /* Use the path to your uploaded image */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.venue-finder-content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center; 
+  width: 100%;
+  height: 100%;
+  position: relative; /* Add relative positioning if you want to use absolute positioning for the button */
+}
+
+.venue-finder-button {
+  background-color: #ffffffd6;
+  color: #000;
+  padding: 0.5rem 1rem;
+  margin-top: 447px;
+  margin-left: 10px;
+  width: 160px;
+  height: 45px;
+  border: black solid 1px;
+  border-radius: 1px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Optional: Adjust the button's position using margin or position properties */
+.custom-position {
+  position: absolute; /* or use margin to adjust its position */
+  margin-top: 40px;
+  top: 60%; /* adjust as needed */
+  left: 60%; /* adjust as needed */
+  transform: translate(-60%, -60%); /* center the button */
+}
